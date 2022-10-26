@@ -14,6 +14,8 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 70px;
+    /*to make gap between two sections*/
 }
 
 .half-width {
@@ -28,21 +30,31 @@ section {
 
 .link-button {
     text-decoration: none;
-    /*background-color: orange; **/
+    /*to remove underline from button text*/
+    /*default font*/
+    /*background-color: orange; */
     background-image: linear-gradient(to right, orange, tomato);
     /*gradiant show */
     padding: 10px 40px;
+    /*position of text inside button*/
     border-radius: 5px;
     color: white;
+    /*font color*/
     font-weight: 700;
+    /*makes bold*/
 }
 
 .top-banner {
     background-image: url(images/top-banner.png);
     /*background image adding */
-
     background-repeat: no-repeat;
 }
 
+.dream-big-section {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 0px center;
+}
 
-/*comment in css
+
+/*comment in css*/
