@@ -12,8 +12,9 @@ h1 {
 }
 
 
-section {
+.flexible-container {
     display: flex;
+    /*content 1 by 1 anar jonno*/
     margin-bottom: 70px;
     /*to make gap between two sections*/
 }
@@ -55,6 +56,9 @@ section {
     background-repeat: no-repeat;
     background-position: right 0px center;
 }
+
+
+
 
 
 /*comment in css*/
